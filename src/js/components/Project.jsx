@@ -15,10 +15,14 @@ const Project = React.createClass({
     return (
       <Card className='Card'>
         <CardHeader
+          className='CardHeader'
           title={<a href={`https://github.com/Knovour/${name}`} target='_blank'>{name}</a>}
           subtitle={description}
           avatar={avatar}
         />
+        <CardText className='CardText'>
+          {description}
+        </CardText>
       </Card>
     )
   }

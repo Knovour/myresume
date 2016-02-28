@@ -177,6 +177,11 @@ aside p:last-of-type .next {
   padding-top: 4px;
 }
 
+.CardText {
+  padding-top: 0;
+  display: none;
+}
+
 footer {
   text-align: center;
   padding: 80px 0;
@@ -252,4 +257,31 @@ footer a:hover {
     right: 36px;
     background-size: 160px auto;
   }
+
+  .Card i,
+  .Card img {
+    margin-right: 10px !important;
+  }
+
+  .Card img {
+    width: 32px;
+  }
+
+  .Card i {
+    font-size: 2.8em;
+  }
+
+  .CardHeader {
+    height: 56px !important;
+    padding: 8px 0 8px 8px !important;
+  }
+
+  .CardHeader span:last-child {
+    font-size: 12px !important;
+  }
+/*
+  .CardText {
+    height: 60px !important;
+    display: block;
+  }*/
 }
