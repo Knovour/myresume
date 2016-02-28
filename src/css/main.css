@@ -177,11 +177,6 @@ aside p:last-of-type .next {
   padding-top: 4px;
 }
 
-.CardText {
-  padding-top: 0;
-  display: none;
-}
-
 footer {
   text-align: center;
   padding: 80px 0;
@@ -279,9 +274,4 @@ footer a:hover {
   .CardHeader span:last-child {
     font-size: 12px !important;
   }
-/*
-  .CardText {
-    height: 60px !important;
-    display: block;
-  }*/
 }

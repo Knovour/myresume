@@ -1,8 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'elemental'
 import Card from 'material-ui/lib/card/card'
-import CardTitle from 'material-ui/lib/card/card-title'
-import CardText from 'material-ui/lib/card/card-text'
 import CardHeader from 'material-ui/lib/card/card-header';
 
 
@@ -20,9 +18,6 @@ const Project = React.createClass({
           subtitle={description}
           avatar={avatar}
         />
-        <CardText className='CardText'>
-          {description}
-        </CardText>
       </Card>
     )
   }
