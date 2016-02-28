@@ -27,7 +27,7 @@ body {
 }
 
 .Container::after {
-  bottom: 66px;
+  bottom: 102px;
   left: -35px;
   width: 140px;
   height: 200px;
