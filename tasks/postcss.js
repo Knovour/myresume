@@ -8,9 +8,9 @@ module.exports = (gulp, plugins, config) => {
 
   const css  = config.buildDir('dest', 'css');
 
-  gulp.task('postcss', () => {
-    del([ css ], { force: true });
+  gulp.task('clean-css', () => del([ css ], { force: true }));
 
+  gulp.task('postcss', [ 'clean-css' ], () => {
     return gulp
       .src(config.buildDir('src', 'css', true))
       .pipe(postcss([

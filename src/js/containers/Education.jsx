@@ -19,7 +19,7 @@ const Education = React.createClass({
     return (
       <article>
         <header>
-          <h1>EDUCATION</h1>
+          <h1>Education</h1>
         </header>
         {blocks}
       </article>

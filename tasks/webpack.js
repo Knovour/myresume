@@ -11,9 +11,9 @@ module.exports = (gulp, plugins, config) => {
 
   const js  = config.buildDir('dest', 'js');
 
-  gulp.task('webpack', () =>{
-    del([ js ], { force: true });
+  gulp.task('clean-js', () => del([ js ], { force: true }));
 
+  gulp.task('webpack', [ 'clean-js' ], () =>{
     return gulp
       .src(config.buildDir('src', 'js', true))
       .pipe(webpack(webpackConfig))

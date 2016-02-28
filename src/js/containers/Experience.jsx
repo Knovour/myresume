@@ -57,7 +57,7 @@ const Experience = React.createClass({
     return (
       <article>
         <header>
-          <h1>EXPERIENCE</h1>
+          <h1>Experience</h1>
         </header>
         {blocks}
       </article>
