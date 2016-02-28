@@ -8,7 +8,7 @@ const Project = React.createClass({
   render() {
     const { name, hasAvatar, description } = this.props.project
     const avatar = hasAvatar
-      ? <img src={`../assets/images/${name}.png`} alt={name}/>
+      ? <img src={`./assets/images/${name}.png`} alt={name}/>
       : <i className='zmdi zmdi-hc-3x zmdi-github'></i>
     return (
       <Card className='Card'>
