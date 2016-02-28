@@ -19,7 +19,7 @@ const hints = [{
   icon: 'account'
 }, {
   tag: 'github',
-  value: 'https://github.com.Knovour',
+  value: 'https://github.com/Knovour',
   icon: 'github'
 }, {
   tag: 'bookshelf',
