@@ -198,7 +198,7 @@ footer a:hover {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .Container::after {
     bottom: 38px;
     left: -58px;
