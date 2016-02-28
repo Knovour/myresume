@@ -5,9 +5,11 @@ import Project from '../components/Project'
 
 const projects = [{
   name: 'myresume',
+  hasAvatar: true,
   description: '簡歷原始程式碼'
 }, {
   name: 'generator-koat',
+  hasAvatar: true,
   description: 'Yeoman template，以 Koa.js 為底'
 }, {
   name: 'json-web-crawler',
