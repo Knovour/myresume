@@ -8,13 +8,16 @@ import CardHeader from 'material-ui/lib/card/card-header';
 
 const Project = React.createClass({
   render() {
-    const { name, description } = this.props.project
+    const { name, hasAvatar, description } = this.props.project
+    const avatar = hasAvatar
+      ? <img src={`../assets/images/${name}.png`} alt={name}/>
+      : <i className='zmdi zmdi-hc-3x zmdi-github'></i>
     return (
       <Card className='Card'>
         <CardHeader
           title={<a href={`https://github.com/Knovour/${name}`} target='_blank'>{name}</a>}
           subtitle={description}
-          avatar={<i className='zmdi zmdi-hc-3x zmdi-github'></i>}
+          avatar={avatar}
         />
       </Card>
     )

@@ -14,12 +14,13 @@ const projects = [{
   description: '將爬蟲所需要寫的程式碼縮成 json 來表示'
 }, {
   name: 'jquery-textavatar',
+  hasAvatar: true,
   description: '以名稱拼出文字大頭貼'
 }]
 
 const GitHub = React.createClass({
   render() {
-    const list = projects.map((project, i) => <Col lg='1/2'><Project key={i} project={project} /></Col>)
+    const list = projects.map((project, i) => <Col key={i} lg='1/2'><Project project={project} /></Col>)
     return (
       <article>
         <header>
