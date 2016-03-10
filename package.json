@@ -4,7 +4,17 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean:css": "rimraf assets/css/*.css",
+    "build:css": "npm run clean:css && postcss -c postcss.config.js",
+    "reload:css": "browser-sync reload --port 4000 --files='assets/css/*.css'",
+    "watch:css": "watch 'npm run build:css && npm run reload:css' src/css",
+    "clean:js": "rimraf assets/js/*.js",
+    "build:js": "npm run clean:js && webpack",
+    "reload:js": "browser-sync reload --port 4000 --files='assets/js/*.js'",
+    "watch:js": "watch 'npm run build:js && npm run reload:js' src/js",
+    "build": "npm run build:css & npm run build:js",
+    "server": "browser-sync start --config bs.config.js",
+    "watch": "npm run watch:js & npm run watch:css & npm run server"
   },
   "author": "Knovour",
   "license": "ISC",
@@ -16,18 +26,12 @@
     "babel-runtime": "^6.5.0",
     "browser-sync": "^2.11.1",
     "cssnano": "^3.5.2",
-    "del": "^2.2.0",
-    "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.1",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-postcss": "^6.1.0",
     "postcss": "^5.0.17",
-    "postcss-cssnext": "^2.4.0",
-    "webpack": "^1.12.13",
-    "webpack-stream": "^3.1.0"
+    "webpack": "^1.12.13"
   },
   "dependencies": {
     "elemental": "^0.5.13",
+    "material-design-iconic-font": "^2.2.0",
     "material-ui": "^0.14.4",
     "react": "^0.14.7",
     "react-addons-css-transition-group": "^0.14.7",
