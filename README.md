@@ -14,9 +14,9 @@ npm run build:js
 npm run build
 ```
 
-### BrowserSync Preview
+### Start browserSync & watch files change
 
 ```js
 npm run build
-npm run watch
+npm start
 ```
