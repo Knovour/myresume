@@ -3,7 +3,6 @@
 ## Prepare
 
 ```sh
-sudo npm i webpack postcss browser-sync watch rimraf -g
 npm i
 ```
 
@@ -20,6 +19,5 @@ npm run build
 ### Start browserSync & watch files change
 
 ```js
-npm run build
 npm start
 ```

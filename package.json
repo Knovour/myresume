@@ -13,8 +13,8 @@
     "reload:js": "browser-sync reload --port 4000 --files='assets/js/*.js'",
     "watch:js": "watch 'npm run build:js && npm run reload:js' src/js",
     "build": "npm run build:css & npm run build:js",
-    "browser-sync": "browser-sync start --config bs.config.js",
-    "start": "npm run watch:js & npm run watch:css & npm run browser-sync"
+    "browser": "browser-sync start --config bs.config.js",
+    "start": "npm run watch:js & npm run watch:css & npm run browser"
   },
   "author": "Knovour",
   "license": "ISC",
@@ -27,6 +27,9 @@
     "browser-sync": "^2.11.1",
     "cssnano": "^3.5.2",
     "postcss": "^5.0.17",
+    "postcss-cli": "^2.5.1",
+    "rimraf": "^2.5.2",
+    "watch": "^0.17.1",
     "webpack": "^1.12.13"
   },
   "dependencies": {
