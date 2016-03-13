@@ -2,7 +2,10 @@
 
 ## Prepare
 
-`sudo npm i webpack postcss browser-sync watch rimraf -g`
+```sh
+sudo npm i webpack postcss browser-sync watch rimraf -g
+npm i
+```
 
 ### Build CSS/JS
 
