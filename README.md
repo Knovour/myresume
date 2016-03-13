@@ -1,5 +1,7 @@
 # My Resume
 
+[Link](https://notes.knovour.ninja/myresume/)
+
 ## Modules
 
 ### Frontend
