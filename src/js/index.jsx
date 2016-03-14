@@ -4,7 +4,7 @@ import { render } from 'react-dom'
 import App from './containers/App'
 
 if(location.protocol !== 'https:' && !location.host.includes('localhost'))
-  location.protocol = 'https:';
+  location.protocol = 'https';
 
 render(
   <App />,
