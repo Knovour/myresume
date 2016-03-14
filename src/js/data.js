@@ -1,7 +1,34 @@
-import React from 'react'
-import EventBlock from '../components/EventBlock'
+const info = [{
+  tag: 'name',
+  value: 'Knovour Zheng',
+  icon: 'face'
+}, {
+  tag: 'email',
+  value: 'knovour@gmail.com',
+  icon: 'email-open'
+}, {
+  tag: 'code',
+  value: 'Node.js',
+  icon: 'code'
+}, {
+  tag: 'blog',
+  value: 'https://notes.knovour.ninja',
+  icon: 'account'
+}, {
+  tag: 'github',
+  value: 'https://github.com/Knovour',
+  icon: 'github'
+}, {
+  tag: 'bookshelf',
+  value: 'https://goo.gl/8YRO8V',
+  icon: 'book-image'
+}, {
+  tag: 'location',
+  value: 'Taiwan',
+  icon: 'pin'
+}];
 
-const eventlist = [{
+const experience = [{
   place: '台北醫學大學',
   time: {
     from: '2011/09/01',
@@ -48,21 +75,41 @@ const eventlist = [{
     work: '流量控管系統',
     detail: '前後端架設、封包擷取、網頁爬蟲'
   }]
-}]
+}];
 
-const Experience = React.createClass({
-  render() {
-    const blocks = eventlist.map((event, i) => <EventBlock key={i} event={event}/>)
+const education = [{
+  place: '輔仁大學',
+  time: {
+    from: '1995/09/01',
+    to: '2012/01/31'
+  },
+  list: [{
+    work: '資訊工程學系',
+  }]
+}];
 
-    return (
-      <article>
-        <header>
-          <h1>Experience</h1>
-        </header>
-        {blocks}
-      </article>
-    )
-  }
-})
+const github = [{
+  name: 'myresume',
+  hasAvatar: true,
+  description: '簡歷原始程式碼'
+}, {
+  name: 'generator-koat',
+  hasAvatar: true,
+  description: 'Yeoman template，以 Koa.js 為底'
+}, {
+  name: 'json-web-crawler',
+  description: '將爬蟲所需要寫的程式碼縮成 json 來表示'
+}, {
+  name: 'jquery-textavatar',
+  hasAvatar: true,
+  description: '以名稱拼出文字大頭貼'
+}];
 
-export default Experience
+const data = {
+  info,
+  experience,
+  education,
+  github
+};
+
+export default data;

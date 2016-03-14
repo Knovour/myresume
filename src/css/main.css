@@ -52,16 +52,16 @@ h1 {
   text-transform: uppercase;
 }
 
-article session:nth-of-type(n+2) {
+article section:nth-of-type(n+2) {
   border-top: 1px solid #e0e0e0;
 }
 
-session {
+section {
   display: block;
   padding: 24px 0;
 }
 
-session h2 {
+section h2 {
   font-family: Arial, 'cwtexqhei';
   padding-top: 12px;
 }

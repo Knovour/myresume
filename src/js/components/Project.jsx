@@ -1,8 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'elemental'
-import Card from 'material-ui/lib/card/card'
-import CardHeader from 'material-ui/lib/card/card-header';
-
+import Card       from 'material-ui/lib/card/card'
+import CardHeader from 'material-ui/lib/card/card-header'
 
 const Project = React.createClass({
   render() {

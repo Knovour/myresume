@@ -12,9 +12,9 @@ const Value = ({ tag, value }) => {
   }
 }
 
-const Hint = React.createClass({
+const Info = React.createClass({
   render() {
-    const { tag, value, icon } = this.props.hint
+    const { tag, value, icon } = this.props.info
     return (
       <p className="data">
         <span className="key">
@@ -26,4 +26,4 @@ const Hint = React.createClass({
   }
 })
 
-export default Hint
+export default Info
