@@ -1,14 +1,12 @@
 import React from 'react'
 
-const Copyright = React.createClass({
+export default React.createClass({
   render() {
-    const year = (new Date()).getFullYear()
+    const { year, author, source } = this.props;
     return (
       <footer>
-        <p>© {year} Knovour&emsp;|&emsp;<a href="https://github.com/Knovour/myresume">Source Code</a></p>
+        <p>© {year} {author}&emsp;|&emsp;<a href={source}>Source Code</a></p>
       </footer>
     )
   }
 })
-
-export default Copyright

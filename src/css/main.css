@@ -95,11 +95,11 @@ aside p:last-of-type .next {
   display: none;
 }
 
-.let {
+.declare {
   color: deepskyblue;
 }
 
-.let, .key {
+.declare, .key {
   font-weight: 400;
 }
 

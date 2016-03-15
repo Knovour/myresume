@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const Article = React.createClass({
+export default React.createClass({
   render() {
     return (
       <article>
@@ -14,5 +14,3 @@ const Article = React.createClass({
     )
   }
 })
-
-export default Article

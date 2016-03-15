@@ -1,4 +1,4 @@
-const info = [{
+export const info = [{
   tag: 'name',
   value: 'Knovour Zheng',
   icon: 'face'
@@ -28,7 +28,7 @@ const info = [{
   icon: 'pin'
 }];
 
-const experience = [{
+export const experience = [{
   place: '台北醫學大學',
   time: {
     from: '2011/09/01',
@@ -77,7 +77,7 @@ const experience = [{
   }]
 }];
 
-const education = [{
+export const education = [{
   place: '輔仁大學',
   time: {
     from: '1995/09/01',
@@ -88,7 +88,7 @@ const education = [{
   }]
 }];
 
-const github = [{
+export const github = [{
   name: 'myresume',
   hasAvatar: true,
   description: '簡歷原始程式碼'
@@ -104,12 +104,3 @@ const github = [{
   hasAvatar: true,
   description: '以名稱拼出文字大頭貼'
 }];
-
-const data = {
-  info,
-  experience,
-  education,
-  github
-};
-
-export default data;

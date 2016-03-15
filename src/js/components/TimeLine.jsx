@@ -21,7 +21,7 @@ const Calendar = ({ date, tag }) => {
   )
 }
 
-const TimeLine = React.createClass({
+export default React.createClass({
   dateToJson(date) {
     const [ year, , day ] = date.split('/')
     const month = (new Date(date)).toDateString().split(' ')[1]
@@ -32,11 +32,9 @@ const TimeLine = React.createClass({
     const { from, to } = this.props.timeline
     return (
       <Col md='1/4' lg="1/8" className='Col'>
-        <Calendar date={this.dateToJson(from)} tag='start' />
-        <Calendar date={this.dateToJson(to)} tag='end' />
+        <Calendar date={this.dateToJson(from)} tag='start'/>
+        <Calendar date={this.dateToJson(to)}   tag='end'/>
       </Col>
     )
   }
 })
-
-export default TimeLine

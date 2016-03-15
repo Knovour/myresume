@@ -1,4 +1,5 @@
 import React from 'react'
+import { Col } from 'elemental'
 
 const Value = ({ tag, value }) => {
   switch(true) {
@@ -12,18 +13,31 @@ const Value = ({ tag, value }) => {
   }
 }
 
-const Info = React.createClass({
+const Hint = ({ hint }) => {
+  const { tag, value, icon } = hint
+  return (
+    <p className="data">
+      <span className="key">
+        <i className={`zmdi zmdi-hc-fw zmdi-${icon}`}></i>:
+      </span>
+      <Value tag={tag} value={value}/><span className="next">,</span>
+    </p>
+  )
+}
+
+export default React.createClass({
   render() {
-    const { tag, value, icon } = this.props.info
     return (
-      <p className="data">
-        <span className="key">
-          <i className={`zmdi zmdi-hc-fw zmdi-${icon}`}></i>:
-        </span>
-        <Value tag={tag} value={value} /><span className="next">,</span>
-      </p>
+      <Col md='1/3'>
+        <aside>
+          <span className="declare">
+            let
+          </span>
+          <span> <img src="./assets/images/logo.png" alt=""/> = &#x0007B;</span>
+          {this.props.info.map((hint, i) => <Hint key={i} hint={hint}/>)}
+          <span> &#x0007D;;</span>
+        </aside>
+      </Col>
     )
   }
 })
-
-export default Info
