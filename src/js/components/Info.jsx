@@ -33,7 +33,7 @@ export default React.createClass({
           <span className="declare">
             let
           </span>
-          <span> <img src="./assets/images/logo.png" alt=""/> = &#x0007B;</span>
+          <span> <img src="./assets/images/iDea.png" alt=""/> = &#x0007B;</span>
           {this.props.info.map((hint, i) => <Hint key={i} hint={hint}/>)}
           <span> &#x0007D;;</span>
         </aside>
