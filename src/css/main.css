@@ -9,10 +9,8 @@ img {
   width: 100%;
 }
 
-.dialog-content > div {
-  background-color: transparent !important;
-  background: transparent !important;
-  box-shadow: none !important;
+.slick-slider {
+  margin-bottom: 0;
 }
 
 .slick-prev,
