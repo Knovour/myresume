@@ -10,7 +10,7 @@ const ProjectInfo = ({ project }) => {
       : <i className='zmdi zmdi-hc-3x zmdi-github'></i>
 
   return (
-    <Card className='Card'>
+    <Card className='Card project-card'>
       <CardHeader
         className='CardHeader'
         title={<a href={`https://github.com/Knovour/${name}`} target='_blank'>{name}</a>}

@@ -207,7 +207,7 @@ aside p:last-of-type .next {
   margin-bottom: 16px;
 }
 
-.Card img {
+.Card.project-card img {
   width: 35px;
   padding-top: 4px;
 }
@@ -288,16 +288,16 @@ footer a:hover {
     background-size: 160px auto;
   }
 
-  .Card i,
-  .Card img {
+  .Card.project-card i,
+  .Card.project-card img {
     margin-right: 10px !important;
   }
 
-  .Card img {
+  .Card.project-card img {
     width: 32px;
   }
 
-  .Card i {
+  .Card.project-card i {
     font-size: 2.8em;
   }
 
