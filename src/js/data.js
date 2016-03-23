@@ -35,8 +35,8 @@ export const experience = [{
     to: '2012/03/31'
   },
   list: [{
-    work: '虛擬環境架設',
-    brief: '虛擬機器 + 管理軟體安裝設定、網站架設、網頁設計'
+    work: '專案研究助手',
+    brief: '負責虛擬機器及管理軟體安裝設定、網站架設、網頁設計'
   }]
 }, {
   place: '安通 ATCC',
@@ -133,6 +133,7 @@ export const education = [{
   },
   list: [{
     work: '資訊工程學系',
+    brief: '課程以 Java 為主'
   }]
 }];
 

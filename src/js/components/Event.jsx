@@ -34,7 +34,7 @@ const EventCard = ({ list }) => {
               return <CardMedia><img src={`assets/images/work/${images[0]}`} alt=""/></CardMedia>
           }
         })()}
-        <CardTitle title={work} subtitle={brief} />
+        <CardTitle title={work} subtitle={brief} titleStyle={{fontSize: '20px'}} />
         {(() => {
           if(typeof detail === 'string' && detail.length)
             return <CardText>{detail}</CardText>
