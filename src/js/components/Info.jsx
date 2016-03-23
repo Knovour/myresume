@@ -7,7 +7,7 @@ const Value = ({ tag, value }) => {
       return <a className={`value ${tag}`} href={`mailto:${value}`}>{value}</a>
     case value.includes('https'):
       const tmp = value.replace('https://', '')
-      return <a className={`value ${tag}`} href={value} target='_blank'>{tmp}</a>
+      return <a className={`value ${tag}`} href={value} target='_blank' title={tag}>{tmp}</a>
     default:
       return <span className={`value ${tag}`}>{value}</span>
   }
