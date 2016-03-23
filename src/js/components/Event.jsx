@@ -24,14 +24,14 @@ const EventCard = ({ list }) => {
               return (<CardMedia>
                 <Slider {...settings}>
                   {images.map((img, j) => {
-                    return <div key={j}><img src={`assets/images/slide/${img}`} alt=""/></div>
+                    return <div key={j}><img src={`assets/images/work/${img}`} alt=""/></div>
                   })}
                 </Slider>
               </CardMedia>)
             }
 
             else
-              return <CardMedia><img src={`assets/images/slide/${images[0]}`} alt=""/></CardMedia>
+              return <CardMedia><img src={`assets/images/work/${images[0]}`} alt=""/></CardMedia>
           }
         })()}
         <CardTitle title={work} subtitle={brief} />
