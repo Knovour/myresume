@@ -1,4 +1,5 @@
 import React from 'react'
+import injectTapEventPlugin from 'react-tap-event-plugin'
 
 import Main      from '../components/Main'
 import Content   from '../components/Content'
@@ -10,6 +11,8 @@ import TimeLine  from '../components/TimeLine'
 import Event     from '../components/Event'
 import Project   from '../components/Project'
 import Copyright from '../components/Copyright'
+
+injectTapEventPlugin()
 
 import {
   info,

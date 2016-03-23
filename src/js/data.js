@@ -68,6 +68,16 @@ export const experience = [{
     to: '2016/01/31'
   },
   list: [{
+    work: 'Logo、名片、產品傳單設計',
+    detail: 'Powerd By Affinity Designer',
+    images: [
+      'legal.webp',
+      '2015-10.webp',
+      '2015-11.webp',
+      '2015-12_1.webp',
+      '2015-12_2.webp',
+    ]
+  }, {
     work: '立信鐘錶',
     detail: '網頁設計、即時聊天功能',
     link: 'https://www.lihsin-watch1963.com/'

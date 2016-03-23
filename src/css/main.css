@@ -5,6 +5,41 @@ body {
   overflow-x: hidden;
 }
 
+img {
+  width: 100%;
+}
+
+.dialog-content > div {
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev {
+  left: 8px;
+}
+
+.slick-next {
+  right: 8px;
+}
+
+.slick-prev:hover::before,
+.slick-next:hover::before,
+.slick-prev:focus::before,
+.slick-next:focus::before,
+.slick-prev::before,
+.slick-next::before {
+  color: #131313;
+  font-size: 40px;
+  opacity: 0.5;
+}
+
 .Container {
   position: relative;
 }
