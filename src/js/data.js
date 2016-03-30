@@ -117,7 +117,7 @@ export const experience = [{
     brief: '前後端架設、封包擷取、網頁爬蟲',
     detail: '給學校使用的期刊下載流量管理，封包擷取部份用 Go 語言完成，擷取的封包做初步整理後傳給 node-restify 建成的 service 做進一步處理並存進資料庫，數據分析顯示的部份則由 Koa.js 建立的 service 負責，各個區塊用 Docker 打包拆分。另外用爬蟲爬取期刊網站資料，以便讓網站能分析並顯示更詳細的資料。'
   }, {
-    work: '楷壘工作室',
+    work: '楷壘設計有限公司',
     brief: '網頁設計',
     images: [
       'klai.webp'
