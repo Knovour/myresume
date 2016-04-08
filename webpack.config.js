@@ -30,7 +30,14 @@ const resolve = {
   extensions: [ '', '.js', '.jsx' ]
 };
 
-const plugins = [ new webpack.optimize.UglifyJsPlugin() ];
+const plugins = [
+  new webpack.DefinePlugin({
+    'process.env': {
+      'NODE_ENV': '"production"'
+    }
+  }),
+  new webpack.optimize.UglifyJsPlugin()
+];
 
 module.exports = {
   entry,
