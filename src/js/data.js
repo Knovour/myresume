@@ -1,6 +1,6 @@
 export const info = [{
   tag: 'name',
-  value: 'Knovour Zheng',
+  value: '鄭竣鴻 Knovour',
   icon: 'face'
 }, {
   tag: 'email',
@@ -24,7 +24,7 @@ export const info = [{
   icon: 'book-image'
 }, {
   tag: 'location',
-  value: 'Taiwan',
+  value: 'Taipei, Taiwan',
   icon: 'pin'
 }];
 
@@ -53,7 +53,7 @@ export const experience = [{
   }, {
     work: '交點 x 2013 年會官網',
     brief: '網站前後端設計開發',
-    detail: '不含圖片設計的部份',
+    detail: '不含圖片設計',
     images: [
       'cp2013.webp'
     ]
@@ -115,7 +115,14 @@ export const experience = [{
   }, {
     work: '流量控管系統',
     brief: '前後端架設、封包擷取、網頁爬蟲',
-    detail: '給學校使用的期刊下載流量管理，封包擷取部份用 Go 語言完成，擷取的封包做初步整理後傳給 node-restify 建成的 service 做進一步處理並存進資料庫，數據分析顯示的部份則由 Koa.js 建立的 service 負責，各個區塊用 Docker 打包拆分。另外用爬蟲爬取期刊網站資料，以便讓網站能分析並顯示更詳細的資料。'
+    detail: `給學校使用的期刊下載流量管理，將系統拆分成三大部份：<br>
+    <ol style='padding-left: 24px;'>
+      <li>封包擷取：用 Go 語言編寫，負責封包擷取、篩選，並將資料打包送出。</li>
+      <li>資料儲存：接收擷取後的資料，再做更進一步的篩選、流量分析後，存進資料庫。以 node-restify 建置。</li>
+      <li>資料呈現：將資料庫的數據做統計整理後，在網頁上以圖表呈現。以 Koa.js 建置。</li>
+    </ol>
+
+    各個區塊用 Docker 打包拆分。另外以爬蟲爬取期刊網站資料，以便往後能分析更詳細的資料。`
   }, {
     work: '楷壘設計有限公司',
     brief: '網頁設計',

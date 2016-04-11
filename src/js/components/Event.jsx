@@ -37,7 +37,7 @@ const EventCard = ({ list }) => {
         <CardTitle title={work} subtitle={brief} titleStyle={{fontSize: '20px'}} />
         {(() => {
           if(typeof detail === 'string' && detail.length)
-            return <CardText>{detail}</CardText>
+            return <CardText><div dangerouslySetInnerHTML={{ __html: detail }}></div></CardText>
         })()}
       </Card>
     )
