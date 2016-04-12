@@ -50,7 +50,7 @@ export default React.createClass({
         <Copyright
           year={(new Date()).getFullYear()}
           author='Knovour Zheng'
-          source='https://github.com/Knovour/myresume'/>
+          madeBy='React.js'/>
       </Main>
     )
   }

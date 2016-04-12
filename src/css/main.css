@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, 'cwtexqhei';
   background: deepskyblue;
   padding: 160px 0 0;
   overflow-x: hidden;
@@ -95,7 +94,7 @@ section {
 }
 
 section h2 {
-  font-family: Arial, 'cwtexqhei';
+  font-family: Roboto, 'cwtexqhei';
   padding-top: 12px;
 }
 

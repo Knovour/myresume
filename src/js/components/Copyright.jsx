@@ -2,10 +2,10 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    const { year, author, source } = this.props;
+    const { year, author, madeBy, source } = this.props;
     return (
       <footer>
-        <p>© {year} {author}&emsp;|&emsp;<a href={source}>Source Code</a></p>
+        <p>© {year} {author}. Made with ♡ by {madeBy}.</p>
       </footer>
     )
   }
