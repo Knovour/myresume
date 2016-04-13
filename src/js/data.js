@@ -71,9 +71,9 @@ export const experience = [{
     ]
   }, {
     work: 'TiC100 活動報名網站',
-    brief: '前台功能開發、後台建置維護',
+    brief: '前後台功能開發、維護',
     link: 'http://sign-up.tic100.org.tw/',
-    detail: '不含頁面設計的部份',
+    detail: '不含頁面設計',
     images: [
       'tic100.webp'
     ]
@@ -96,7 +96,7 @@ export const experience = [{
   },
   list: [{
     work: 'Logo、名片、產品傳單設計',
-    brief: 'Powerd By Affinity Designer',
+    brief: 'Made By Affinity Designer',
     images: [
       'legal.webp',
       '2015-10.webp',

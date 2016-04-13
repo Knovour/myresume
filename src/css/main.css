@@ -162,10 +162,11 @@ aside p:last-of-type .next {
 .calendar.start::before {
   content: '';
   position: absolute;
+  top: 1px;
   left: calc(50% - 1px);
   z-index: -100;
   display: block;
-  height: 100%;
+  height: calc(100% - 2px);
   border-left: 2px solid #9C9C9C;
 }
 

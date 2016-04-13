@@ -1,6 +1,6 @@
 # My Resume
 
-[Link](https://notes.knovour.ninja/myresume/)
+[Link](https://resume.knovour.ninja/)
 
 ## Modules
 
