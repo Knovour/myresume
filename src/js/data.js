@@ -78,7 +78,7 @@ export const experience = [{
       'tic100.webp'
     ]
   }, {
-    work: 'Google ignite 數位火星計劃',
+    work: 'Google Ignite 數位火星計劃',
     brief: ' 網頁設計',
     images: [
       'ignite.webp'
@@ -95,7 +95,7 @@ export const experience = [{
     to: '2016/03/15'
   },
   list: [{
-    work: 'Logo、名片、產品傳單設計',
+    work: 'Logo、名片、商品傳單設計',
     brief: 'Made By Affinity Designer',
     images: [
       'legal.webp',

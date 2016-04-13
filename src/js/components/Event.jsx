@@ -41,7 +41,7 @@ const EventCard = ({ list }) => {
     return (
       <Card className='Card' key={i}>
         <CardImg images={images}/>
-        <CardTitle title={work} subtitle={brief} titleStyle={{fontSize: '20px'}} />
+        <CardTitle className='CardTitle' title={work} subtitle={brief} titleStyle={{fontSize: '20px'}} />
         {(() => {
           if(typeof detail === 'string' && detail.length)
             return <CardText><div dangerouslySetInnerHTML={{ __html: detail }}></div></CardText>
