@@ -135,7 +135,7 @@ export const experience = [{
 export const education = [{
   place: '輔仁大學',
   time: {
-    from: '1995/09/01',
+    from: '2007/09/01',
     to: '2012/01/31'
   },
   list: [{

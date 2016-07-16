@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Row } from 'elemental'
-import Paper from 'material-ui/lib/paper'
+import Paper from 'material-ui/Paper'
 
 const style = {
   position: 'relative',

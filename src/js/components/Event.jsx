@@ -1,9 +1,6 @@
 import React from 'react'
 import { Col } from 'elemental'
-import Card      from 'material-ui/lib/card/card'
-import CardMedia from 'material-ui/lib/card/card-media'
-import CardTitle from 'material-ui/lib/card/card-title'
-import CardText  from 'material-ui/lib/card/card-text'
+import { Card, CardMedia, CardTitle, CardText } from 'material-ui/Card'
 import Slider from 'react-slick'
 
 const CardImg = ({ images }) => {

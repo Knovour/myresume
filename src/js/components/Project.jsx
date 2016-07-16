@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col } from 'elemental'
-import Card       from 'material-ui/lib/card/card'
-import CardHeader from 'material-ui/lib/card/card-header'
+import { Card, CardHeader } from 'material-ui/Card'
 
 const ProjectInfo = ({ project }) => {
   const { name, hasAvatar, description } = project
