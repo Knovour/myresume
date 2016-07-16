@@ -154,7 +154,7 @@ export const github = [{
   description: 'Yeoman template，以 Koa.js 為底'
 }, {
   name: 'json-web-crawler',
-  description: '將爬蟲所需要寫的程式碼縮成 json 來表示'
+  description: '用 JSON 的方式寫爬蟲'
 }, {
   name: 'jquery-textavatar',
   hasAvatar: true,
