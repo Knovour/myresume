@@ -1,6 +1,6 @@
 # My Resume
 
-[Link](https://resume.knovour.ninja/)
+Depecrated. New version here: https://github.com/Knovour/resume-2018 
 
 ## Modules
 
